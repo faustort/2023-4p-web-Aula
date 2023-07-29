@@ -8,11 +8,19 @@ body {
   color: var(--cor-do-texto);
   font-family: sans-serif;
 }
-.destaque {
-    color: var(--cor-principal);
+.container {
+  max-width: 1140px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto; 
 }
+
+.destaque {
+  color: var(--cor-principal);
+}
+
 .destaque-claro {
-    color: var(--cor-secundaria);
+  color: var(--cor-secundaria);
 }
 .menu {
   display: flex;
